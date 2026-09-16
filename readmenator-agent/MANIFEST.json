@@ -1,0 +1,22 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-16T05:52:01Z",
+  "project_root": "/tmp/push_shad0w_20260916_013256",
+  "files": 2,
+  "symbols": 10,
+  "imports": 6,
+  "resolved_imports": 0,
+  "security_findings": 0,
+  "languages": {
+    "sh": 1,
+    "c": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
